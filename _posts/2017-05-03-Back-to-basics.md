@@ -1,6 +1,8 @@
 ---
 layout: post
 title: "Back to basics"
+date: 2017-05-03 19:00:00 -0500
+author: Prakaash
 published: true
 ---
 

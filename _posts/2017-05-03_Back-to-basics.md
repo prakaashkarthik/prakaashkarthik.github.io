@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Back to basics"
+published: true
 ---
 
 ## Back to basics

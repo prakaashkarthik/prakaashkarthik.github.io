@@ -7,12 +7,6 @@ date: 2018-04-19
 
 # We are what we eat — Part 1 — On Exercise
 
-Multi-part series on my understanding of how our body treats food. (Link to Part 0)
-
----
-
-### We are what we eat — Part 1 — On Exercise
-
 Multi-part series on my understanding of how our body treats food. ([Link to Part 0](https://medium.com/klein-bottle-shaped-rocks/we-are-what-we-eat-part-0-71c9be9cfa91))
 
 #### Contents:

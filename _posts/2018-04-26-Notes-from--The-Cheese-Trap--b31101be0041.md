@@ -7,11 +7,6 @@ date: 2018-04-26
 
 # Notes from ‘The Cheese Trap’
 
-In this book by Dr. Neal Barnard, recommended to me by a dear friend who has just finished medical school, we learn what it is about Cheese…
-
----
-
-### Notes from ‘The Cheese Trap’
 
 In this book by Dr. Neal Barnard, recommended to me by a dear friend who has just finished medical school, we learn what it is about Cheese that makes it so irresistible and, unfortunately, why it’s also bad for us. He also walks us a little through the Dairy lobbying that happens in the US and what the cows go through. Towards the end he talks about what a preferable diet would consist of, and there are recipes as well towards the end.
 

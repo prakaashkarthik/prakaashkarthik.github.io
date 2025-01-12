@@ -7,12 +7,6 @@ date: 2019-02-15
 
 # No Stone Left Unturned
 
-I just finished reading “The Second Kind of Impossible” by Paul Steinhardt, a pioneer (if not the pioneer) in the field of Quasicrystal…
-
----
-
-### No Stone Left Unturned
-
 I just finished reading [“The Second Kind of Impossible”](https://www.amazon.com/Second-Kind-Impossible-Extraordinary-Matter/dp/1476729921) by Paul Steinhardt, a pioneer (if not *the* pioneer) in the field of Quasicrystal research. It was a wholesome account of the research that he and his various teams performed over the last three decades, the theories they sought to prove, the roadblocks they hit, the criticisms they faced, their concerns they held, the luck they received, and most importantly the grit, determination and persistence each and every one who worked on this project displayed.
 
 ![](https://cdn-images-1.medium.com/max/800/1*v855oi2H7QZ2TZnwUaDzhA.jpeg)

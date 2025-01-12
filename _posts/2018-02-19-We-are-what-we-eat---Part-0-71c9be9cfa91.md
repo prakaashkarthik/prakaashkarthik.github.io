@@ -5,13 +5,8 @@ author : Prakaash
 date: 2018-02-19
 ---
 
-# We are what we eat — Part 0
 
-Multi-part series on my understanding of how our body treats food.
-
----
-
-### We are what we eat — Part 0
+## We are what we eat — Part 0
 
 Multi-part series on my understanding of how our body treats food.
 

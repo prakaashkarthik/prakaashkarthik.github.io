@@ -7,12 +7,6 @@ date: 2018-05-10
 
 # Takeaways from “Why We Sleep”
 
-I’ve been guilty of saying “Sleep? I can sleep when I’m dead” on many occasions. Often it was the first thing I’d be willing to compromise…
-
----
-
-### Takeaways from “Why We Sleep”
-
 I’ve been guilty of saying “Sleep? I can sleep when I’m dead” on many occasions. Often it was the first thing I’d be willing to compromise on in order to fit in more activities. College. Grad school. Work. It was sleep, after all. We can always catch up later. It was among the bottom of my priority list.
 
 Shouldn’t have done that. I messed up. The crystal ball of hindsight now makes me wonder what could’ve been. Damn you, Dr. Matthew Walker.

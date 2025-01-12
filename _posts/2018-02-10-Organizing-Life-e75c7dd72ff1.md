@@ -7,12 +7,6 @@ date: 2018-02-10
 
 # Organizing Life
 
-The point of this post: I believe there are 4 categories of systems for which one can develop mental models and subsystems around in order…
-
----
-
-### Organizing Life
-
 The point of this post: I believe there are 4 categories of systems for which one can develop mental models and subsystems around in order to make life better, and I’d like to share that with you.
 
 Nearly a year ago I was introduced to the concept of mental models and system-based thinking through a [podcast episode](https://www.fs.blog/2017/02/naval-ravikant-reading-decision-making/) from “The Knowledge Project” where the host (Shane Parrish) sat down to have a talk with Naval Ravikant for a couple of hours. I was quite simply blown away, and I highly recommend listening to it. I owe no small debt of gratitude to [Susa(Sudharshan Karthik)](https://medium.com/u/293c677ca38c) for telling me to listen to it.

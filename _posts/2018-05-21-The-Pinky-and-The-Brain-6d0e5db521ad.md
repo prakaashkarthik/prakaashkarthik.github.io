@@ -7,12 +7,6 @@ date: 2018-05-21
 
 # The Pinky and The Brain
 
-Part of my “back to basics” program was to develop mental models about how the body works. I wanted to start off with the muscular system…
-
----
-
-### The Pinky and The Brain
-
 Part of my “back to basics” program was to develop mental models about how the body works. I wanted to start off with [the muscular system](https://medium.com/klein-bottle-shaped-rocks/we-are-what-we-eat-part-1-on-exercise-6dcbf3d6180f), then [the digestive system](https://medium.com/klein-bottle-shaped-rocks/notes-from-the-cheese-trap-b31101be0041), and end with psychology and the brain. So while I was always interested in learning about how we made decisions (spurred by my reading of “[Predictably Irrational](https://www.amazon.com/dp/B002C949KE/ref%3Ddp-kindle-redirect?_encoding=UTF8&btkr=1)”), since reading “[Why We Sleep](https://medium.com/klein-bottle-shaped-rocks/takeaways-from-why-we-sleep-d680d44ba07a)” my curiosity has veered more towards the actual functioning of the brain.
 
 To satisfy my knowledge here, I went on a Kindle book buying spree and lapped up a few based on reviews. Rather unfortunately I don’t think I will be reading them in the near future — for I have been rendered awestruck by what I’m reading in “[Phantoms in the Brain](https://www.amazon.com/Phantoms-Brain-Probing-Mysteries-Human/dp/0688172172)” by Dr. V.S. Ramachandran.

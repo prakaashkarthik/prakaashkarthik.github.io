@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: "Takeaways from “Why We Sleep”"
 author : Prakaash
 date: 2018-05-10

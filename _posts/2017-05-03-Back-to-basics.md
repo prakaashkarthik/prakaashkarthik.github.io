@@ -1,9 +1,9 @@
 ---
-layout: post
+layout: default
 title: "Back to basics"
 date: 2017-05-03 19:00:00 -0500
 author: Prakaash
-published: true
+tags: personal
 ---
 
 ## Back to basics

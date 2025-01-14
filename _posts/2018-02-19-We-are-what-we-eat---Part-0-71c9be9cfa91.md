@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: "We are what we eat — Part 0"
 author : Prakaash
 date: 2018-02-19

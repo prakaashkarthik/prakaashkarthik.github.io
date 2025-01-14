@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: "Organizing Life"
 author : Prakaash
 date: 2018-02-10

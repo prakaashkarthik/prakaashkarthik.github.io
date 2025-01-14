@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: "We are what we eat — Part 1 — On Exercise"
 author : Prakaash
 date: 2018-04-19

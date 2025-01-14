@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: "No Stone Left Unturned"
 author : Prakaash
 date: 2019-02-15

@@ -5,17 +5,19 @@ layout: default
     <h2>Recent Posts</h2>
     <div class="post-cloud">
         {% for post in site.posts limit:10 %}
-        <article class="post-preview">
-            <h3 class="post-title">
-                <a href="{{ post.url }}">{{ post.title }}</a>
-            </h3>
-            <div class="post-meta">
-                <span class="post-date">{{ post.date | date: "%B %d, %Y" }}</span>
-                {% for tag in post.tags %}
-                    <span class="post-tag">{{ post.tags }}</span>
-                {% endfor %}
-            </div>
-        </article>
+        <a href="{{ post.url }}" class="post-preview-link">
+            <article class="post-preview">
+                <h3 class="post-title">
+                    {{ post.title }}
+                </h3>
+                <div class="post-meta">
+                    <span class="post-date">{{ post.date | date: "%B %d, %Y" }}</span>
+                    {% for tag in post.tags %}
+                        <span class="post-tag">{{ tag }}</span>
+                    {% endfor %}
+                </div>
+            </article>
+        </a>
         {% endfor %}
     </div>
 </section>

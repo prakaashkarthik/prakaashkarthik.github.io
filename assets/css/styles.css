@@ -80,6 +80,15 @@ body {
     transition: transform 0.2s ease, box-shadow 0.2s ease;
     border: 1px solid var(--medium-gray);
 }
+.post-preview-link {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+}
+
+.post-preview-link:hover {
+    background-color: #f0f0f0; /* Optional hover effect */
+}
 
 .post-preview:hover {
     transform: translateY(-2px);

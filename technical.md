@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Testing Testing!"
+title: "Technical"
 tags: [technical]
 ---
 

@@ -1,16 +1,16 @@
 ---
 layout: default
-title: "Personal"
-tags: [personal]
+title: "Books"
+tags: [books]
 ---
 
-# Personal posts
+# Posts on Books
 
 <section class="Personal-posts">
-    <h2>Writings about improving myself</h2>
+    <h2>Reflections and Thoughts I've had after reading a book</h2>
     <div class="post-cloud">
         {% for post in site.posts %}
-            {% if post.tags contains "personal" %}
+            {% if post.tags contains "books" %}
             <a href="{{ post.url }}" class="post-preview-link">
                 <article>
                     <h3 class="post-title">{{ post.title }}</h3>
@@ -28,10 +28,10 @@ tags: [personal]
 </section>
 
 <section class="recent-posts">
-    <h2>Recent Personal Posts</h2>
+    <h2>Recent Posts on Books</h2>
     <div class="post-cloud">
         {% for post in site.posts %}
-            {% if post.tags contains "personal" %}
+            {% if post.tags contains "books" %}
             {% capture excerpt %}{{ post.content | strip_html | truncatewords: 30 }}{% endcapture %}
             <article class="post-preview">
                 <h3 class="post-title">

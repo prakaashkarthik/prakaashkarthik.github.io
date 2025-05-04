@@ -6,8 +6,27 @@ tags: [books]
 
 # Posts on Books
 
+<section class="recent-posts">
+    <h2>Recent Posts on Books</h2>
+    <div>
+        {% for post in site.posts %}
+            {% if post.tags contains "books" %}
+            {% capture excerpt %}{{ post.content | strip_html | truncatewords: 30 }}{% endcapture %}
+            <a href="{{ post.url }}" class="post-preview-link">
+            <article>
+                <h3 class="post-title">{{ post.title }}</h3>
+                <div class="post-meta">
+                    <span class="post-date">{{ post.date | date: "%B %d, %Y" }}</span>
+                </div>
+                <p class="post-excerpt">{{ excerpt }}</p>
+            </article>
+            {% endif %}
+        {% endfor %}
+    </div>
+</section>
+
 <section class="Personal-posts">
-    <h2>Reflections and Thoughts I've had after reading a book</h2>
+    <h2>All posts</h2>
     <div class="post-cloud">
         {% for post in site.posts %}
             {% if post.tags contains "books" %}
@@ -22,23 +41,6 @@ tags: [books]
                     </div>
                 </article>
             </a>
-            {% endif %}
-        {% endfor %}
-    </div>
-</section>
-
-<section class="recent-posts">
-    <h2>Recent Posts on Books</h2>
-    <div class="post-cloud">
-        {% for post in site.posts %}
-            {% if post.tags contains "books" %}
-            {% capture excerpt %}{{ post.content | strip_html | truncatewords: 30 }}{% endcapture %}
-            <article class="post-preview">
-                <h3 class="post-title">
-                    <a href="{{ post.url }}">{{ post.title }}</a>
-                </h3>
-                <p class="post-excerpt">{{ excerpt }}</p>
-            </article>
             {% endif %}
         {% endfor %}
     </div>

@@ -20,6 +20,7 @@ tags: [books]
                 </div>
                 <p class="post-excerpt">{{ excerpt }}</p>
             </article>
+            </a>
             {% endif %}
         {% endfor %}
     </div>

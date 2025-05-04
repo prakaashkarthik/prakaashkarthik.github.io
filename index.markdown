@@ -28,7 +28,7 @@ layout: default
     <div class="tags">
         {% assign tags = site.tags | sort %}
         {% for tag in tags %}
-        <a href="#" class="tag" data-tag="{{ tag[0] }}">
+        <a href="#" class="tag">
             {{ tag[0] }} <span class="count">{{ tag[1].size }}</span>
         </a>
         {% endfor %}

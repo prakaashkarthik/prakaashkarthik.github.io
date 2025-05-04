@@ -10,17 +10,22 @@ tags: [technical]
 <section class="recent-posts">
     <h2>Recent</h2>
     <div>
-        {% for post in site.posts limit:4 %}
+        {% assign count = 0 %}
+        {% for post in site.posts %}
             {% if post.tags contains "technical" %}
-            {% capture excerpt %}{{ post.content | strip_html | truncatewords: 30 }}{% endcapture %}
-            <article>
-                <h3 class="post-title">
-                    <a href="{{ post.url }}">{{ post.title }} </a>
-                    <span class="post-date">{{ post.date | date: "%B %d, %Y" }}</span>
-                </h3>
-                <p class="post-excerpt">{{ excerpt }}</p>
-            </article>
-            <hr>
+                {% if count == 3 %}
+                    {% break %}
+                {% endif %}
+                {% capture excerpt %}{{ post.content | strip_html | truncatewords: 30 }}{% endcapture %}
+                <article>
+                    <h3 class="post-title">
+                        <a href="{{ post.url }}">{{ post.title }} </a>
+                        <span class="post-date">{{ post.date | date: "%B %d, %Y" }}</span>
+                    </h3>
+                    <p class="post-excerpt">{{ excerpt }}</p>
+                </article>
+                <hr>
+                {% assign count = count | plus: 1 %}
             {% endif %}
         {% endfor %}
     </div>

@@ -6,7 +6,7 @@ layout: default
     <div class="post-cloud">
         {% for post in site.posts limit:10 %}
         <a href="{{ post.url }}" class="post-preview-link">
-            <article class="post-preview">
+            <article>
                 <h3 class="post-title">
                     {{ post.title }}
                 </h3>

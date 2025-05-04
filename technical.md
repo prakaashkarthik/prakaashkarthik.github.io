@@ -7,7 +7,7 @@ tags: [technical]
 # Technical posting!
 
 <section class="technical-posts">
-    <h2>Posts Tagged as 'Technical'</h2>
+    <h2>Technical posts</h2>
     <div class="post-cloud">
         {% for post in site.posts %}
             {% if post.tags contains "technical" %}

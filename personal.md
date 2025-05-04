@@ -6,8 +6,8 @@ tags: [personal]
 
 # personal posting!
 
-<section class="personal-posts">
-    <h2>Posts Tagged as 'personal'</h2>
+<section class="Personal-posts">
+    <h2>Writings about improving myself</h2>
     <div class="post-cloud">
         {% for post in site.posts %}
             {% if post.tags contains "personal" %}
@@ -22,6 +22,23 @@ tags: [personal]
                     </div>
                 </article>
             </a>
+            {% endif %}
+        {% endfor %}
+    </div>
+</section>
+
+<section class="recent-posts">
+    <h2>Recent Personal Posts</h2>
+    <div class="post-cloud">
+        {% for post in site.posts %}
+            {% if post.tags contains "personal" %}
+            {% capture excerpt %}{{ post.content | strip_html | truncatewords: 30 }}{% endcapture %}
+            <article class="post-preview">
+                <h3 class="post-title">
+                    <a href="{{ post.url }}">{{ post.title }}</a>
+                </h3>
+                <p class="post-excerpt">{{ excerpt }}</p>
+            </article>
             {% endif %}
         {% endfor %}
     </div>

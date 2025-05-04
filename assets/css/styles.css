@@ -102,6 +102,31 @@ body {
     color: inherit;
 }
 
+.recent-posts .post-preview {
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    border: 1px solid var(--medium-gray);
+}
+
+.recent-posts .post-title a {
+    text-decoration: none;
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+.recent-posts .post-title a:hover {
+    text-decoration: underline;
+}
+
+.recent-posts .post-excerpt {
+    margin-top: 0.5rem;
+    color: var(--text-color);
+    font-size: 0.9rem;
+}
+
 .post-preview-link:hover {
     transform: translateY(-2px);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);

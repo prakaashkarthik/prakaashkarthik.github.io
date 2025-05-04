@@ -19,6 +19,7 @@ tags: [books]
                 </h3>
                 <p class="post-excerpt">{{ excerpt }}</p>
             </article>
+            <hr>
             {% endif %}
         {% endfor %}
     </div>

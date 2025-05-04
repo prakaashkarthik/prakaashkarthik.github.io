@@ -102,6 +102,10 @@ body {
     color: inherit;
 }
 
+.recent-posts {
+    margin-bottom: 2rem;
+}
+
 .recent-posts .post-preview {
     margin-bottom: 1.5rem;
     padding: 1rem;
@@ -121,7 +125,7 @@ body {
 }
 
 .recent-posts .post-title .post-date {
-    margin-left: 1rem;
+    margin-left: 2rem;
     font-size: 0.9rem;
     color: var(--text-color);
     font-weight: normal;
@@ -134,7 +138,7 @@ body {
 }
 
 .recent-posts .post-excerpt {
-    margin-top: 0.5rem;
+    margin-top: 1.5rem;
     color: var(--text-color);
     font-size: 0.9rem;
 }

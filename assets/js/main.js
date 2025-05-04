@@ -45,3 +45,25 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 });
+
+document.querySelectorAll('.post-tag').forEach(tag => {
+    const tagText = tag.textContent.trim().toLowerCase();
+
+    // Define colors for specific tags
+    const colors = {
+        books: '#FFD700', // Gold
+        technical: '#ADD8E6', // Light blue
+        personal: '#FFB6C1', // Light pink
+        culture: '#32CD32', // Lime green
+    };
+
+    // Set the background color based on the tag text
+    if (colors[tagText]) {
+        tag.style.backgroundColor = colors[tagText];
+        tag.style.color = '#000'; // Optional: Set text color
+    } else {
+        // Default color for unknown tags
+        tag.style.backgroundColor = '#D3D3D3'; // Light gray
+        tag.style.color = '#000';
+    }
+});

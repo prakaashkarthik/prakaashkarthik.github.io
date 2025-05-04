@@ -24,11 +24,11 @@ document.addEventListener('DOMContentLoaded', () => {
             const tag = tagLink.dataset.tag;
 
             // If the same tag is clicked again, hide the posts
-            if (activeTag === tag) {
-                taggedPosts.classList.add('hidden');
-                activeTag = null; // Reset the active tag
-                return;
-            }
+            // if (activeTag === tag) {
+            //     taggedPosts.classList.add('hidden');
+            //     activeTag = null; // Reset the active tag
+            //     return;
+            // }
 
             // Otherwise, show the posts for the clicked tag
             activeTag = tag; // Set the active tag

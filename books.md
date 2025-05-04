@@ -12,7 +12,7 @@ tags: [books]
         {% for post in site.posts %}
             {% if post.tags contains "books" %}
             {% capture excerpt %}{{ post.content | strip_html | truncatewords: 30 }}{% endcapture %}
-            <a href="{{ post.url }}" class="post-preview-link">
+            <a href="{{ post.url }}" class="post-preview">
             <article>
                 <h3 class="post-title">{{ post.title }}</h3>
                 <div class="post-meta">

@@ -71,16 +71,14 @@ body {
 .post-preview {
     flex: 1;
     min-width: 200px;
+    max-width: calc(33.333% - 1rem);
     margin: 0;
     padding: 1rem;
-    background: transparent;
+    background: white;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
     transition: transform 0.2s ease, box-shadow 0.2s ease;
     border: 1px solid var(--medium-gray);
-    border-left-style: none;
-    border-right-style: none;
-    border-top-style: none;
 }
 
 .post-preview:hover {
@@ -107,10 +105,13 @@ body {
 .recent-posts .post-preview {
     margin-bottom: 1.5rem;
     padding: 1rem;
-    background: white;
+    background: transparent;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
     border: 1px solid var(--medium-gray);
+    border-top-style: none;
+    border-right-style: none;
+    border-left-style: none;
 }
 
 .recent-posts .post-title a {

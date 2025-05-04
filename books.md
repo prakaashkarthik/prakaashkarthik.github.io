@@ -5,11 +5,12 @@ tags: [books]
 ---
 
 # Posts on Books
+## Reflections and Insights from Books
 
 <section class="recent-posts">
     <h2>Recent</h2>
     <div>
-        {% for post in site.posts limit:3 %}
+        {% for post in site.posts limit:4 %}
             {% if post.tags contains "books" %}
             {% capture excerpt %}{{ post.content | strip_html | truncatewords: 30 }}{% endcapture %}
             <article>
@@ -25,7 +26,7 @@ tags: [books]
     </div>
 </section>
 
-<section class="Personal-posts">
+<section class="Book-posts">
     <h2>All posts</h2>
     <div class="post-cloud">
         {% for post in site.posts %}

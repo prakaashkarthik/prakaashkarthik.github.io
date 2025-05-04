@@ -4,7 +4,27 @@ title: "Technical"
 tags: [technical]
 ---
 
-# Technical posting!
+# Technical 
+## Posts on Technology and/or technical things
+
+<section class="recent-posts">
+    <h2>Recent</h2>
+    <div>
+        {% for post in site.posts limit:4 %}
+            {% if post.tags contains "technical" %}
+            {% capture excerpt %}{{ post.content | strip_html | truncatewords: 30 }}{% endcapture %}
+            <article>
+                <h3 class="post-title">
+                    <a href="{{ post.url }}">{{ post.title }} </a>
+                    <span class="post-date">{{ post.date | date: "%B %d, %Y" }}</span>
+                </h3>
+                <p class="post-excerpt">{{ excerpt }}</p>
+            </article>
+            <hr>
+            {% endif %}
+        {% endfor %}
+    </div>
+</section>
 
 <section class="technical-posts">
     <h2>Technical posts</h2>

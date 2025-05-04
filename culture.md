@@ -1,17 +1,17 @@
 ---
 layout: default
-title: "Personal"
-tags: [personal]
+title: "culture"
+tags: [culture]
 ---
 
-# Personal posts
-## Writings about improving myself
+# Culture
+## General thoughts on work and world culture
 
 <section class="recent-posts">
     <h2>Recent</h2>
     <div>
         {% for post in site.posts limit:4 %}
-            {% if post.tags contains "personal" %}
+            {% if post.tags contains "culture" %}
             {% capture excerpt %}{{ post.content | strip_html | truncatewords: 30 }}{% endcapture %}
             <article>
                 <h3 class="post-title">
@@ -26,11 +26,11 @@ tags: [personal]
     </div>
 </section>
 
-<section class="Personal-posts">
-    <h2> All Personal posts </h2>
+<section class="culture-posts">
+    <h2>All Culture posts</h2>
     <div class="post-cloud">
         {% for post in site.posts %}
-            {% if post.tags contains "personal" %}
+            {% if post.tags contains "culture" %}
             <a href="{{ post.url }}" class="post-preview-link">
                 <article>
                     <h3 class="post-title">{{ post.title }}</h3>

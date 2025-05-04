@@ -3,6 +3,7 @@ layout: default
 title: "Notes from ‘The Cheese Trap’"
 author : Prakaash
 date: 2018-04-26
+tags: books
 ---
 
 # Notes from ‘The Cheese Trap’

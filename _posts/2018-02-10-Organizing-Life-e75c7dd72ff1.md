@@ -3,6 +3,7 @@ layout: default
 title: "Organizing Life"
 author : Prakaash
 date: 2018-02-10
+tags: personal
 ---
 
 # Organizing Life

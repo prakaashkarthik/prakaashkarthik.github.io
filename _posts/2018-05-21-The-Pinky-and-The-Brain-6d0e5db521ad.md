@@ -3,6 +3,7 @@ layout: default
 title: "The Pinky and The Brain"
 author : Prakaash
 date: 2018-05-21
+tags: books
 ---
 
 # The Pinky and The Brain

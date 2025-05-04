@@ -1,16 +1,16 @@
 ---
 layout: default
 title: "Testing Testing!"
-tags: [technical]
+tags: [personal]
 ---
 
-# Technical posting!
+# personal posting!
 
-<section class="technical-posts">
-    <h2>Posts Tagged as 'Technical'</h2>
+<section class="personal-posts">
+    <h2>Posts Tagged as 'personal'</h2>
     <div class="post-cloud">
         {% for post in site.posts %}
-            {% if post.tags contains "technical" %}
+            {% if post.tags contains "personal" %}
             <a href="{{ post.url }}" class="post-preview-link">
                 <article>
                     <h3 class="post-title">{{ post.title }}</h3>

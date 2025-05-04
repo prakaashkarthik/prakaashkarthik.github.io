@@ -77,7 +77,6 @@ document.querySelectorAll('.post-tag').forEach(tag => {
     }
 });
 
-/*
 document.querySelectorAll('.tag').forEach(tag => {
     const tagText = tag.textContent.trim().toLowerCase().replace(/[^a-z]/g, '');
 
@@ -99,4 +98,3 @@ document.querySelectorAll('.tag').forEach(tag => {
         tag.style.color = '#000';
     }
 });
-*/

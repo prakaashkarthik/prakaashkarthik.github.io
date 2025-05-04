@@ -120,6 +120,15 @@ body {
     font-weight: bold;
 }
 
+.recent-posts .post-title .post-date {
+    margin-left: 1rem;
+    font-size: 0.9rem;
+    color: var(--text-color);
+    font-weight: normal;
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
 .recent-posts .post-title a:hover {
     text-decoration: underline;
 }

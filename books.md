@@ -7,7 +7,7 @@ tags: [books]
 # Posts on Books
 
 <section class="recent-posts">
-    <h2>Recent Posts on Books</h2>
+    <h2>Recent</h2>
     <div>
         {% for post in site.posts limit:3 %}
             {% if post.tags contains "books" %}
@@ -15,10 +15,8 @@ tags: [books]
             <article>
                 <h3 class="post-title">
                     <a href="{{ post.url }}">{{ post.title }} </a>
-                </h3>
-                <div>
                     <span class="post-date">{{ post.date | date: "%B %d, %Y" }}</span>
-                </div>
+                </h3>
                 <p class="post-excerpt">{{ excerpt }}</p>
             </article>
             {% endif %}

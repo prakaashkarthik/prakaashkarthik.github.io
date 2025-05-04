@@ -24,7 +24,7 @@ layout: default
 
 
 <section class="tag-cloud">
-    <h2>Topics</h2>
+    <h2>Posts By Tag</h2>
     <div class="tags">
         {% assign tags = site.tags | sort %}
         {% for tag in tags %}

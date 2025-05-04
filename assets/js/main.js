@@ -6,6 +6,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const selectedTagSpan = document.getElementById('selected-tag');
 
     let tagsData = null;
+    let activeTag = null; // Track the currently active tag
+
     fetch('/tag.json')
         .then(response => response.json())
         .then(data => {
@@ -21,12 +23,20 @@ document.addEventListener('DOMContentLoaded', () => {
             e.preventDefault();
             const tag = tagLink.dataset.tag;
 
+            // If the same tag is clicked again, hide the posts
+            if (activeTag === tag) {
+                taggedPosts.classList.add('hidden');
+                activeTag = null; // Reset the active tag
+                return;
+            }
+
+            // Otherwise, show the posts for the clicked tag
+            activeTag = tag; // Set the active tag
             if (!tagsData || !tagsData[tag]) {
                 tagPostsList.innerHTML = 'No posts found.';
                 return;
             }
 
-            // Show the posts for this tag
             taggedPosts.classList.remove('hidden');
             selectedTagSpan.textContent = tag;
 

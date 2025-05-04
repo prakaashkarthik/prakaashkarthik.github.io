@@ -78,7 +78,7 @@ document.querySelectorAll('.post-tag').forEach(tag => {
 });
 
 document.querySelectorAll('.tag').forEach(tag => {
-    const tagText = tag.textContent.trim().toLowerCase();
+    const tagText = tag.textContent.trim().toLowerCase().replace(/[^a-z]/g, '');
 
     // Define colors for specific tags
     const colors = {

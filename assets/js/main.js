@@ -24,11 +24,11 @@ document.addEventListener('DOMContentLoaded', () => {
             const tag = tagLink.dataset.tag;
 
             // If the same tag is clicked again, hide the posts
-            // if (activeTag === tag) {
-            //     taggedPosts.classList.add('hidden');
-            //     activeTag = null; // Reset the active tag
-            //     return;
-            // }
+            if (activeTag === tag) {
+                taggedPosts.classList.add('hidden');
+                activeTag = null; // Reset the active tag
+                return;
+            }
 
             // Otherwise, show the posts for the clicked tag
             activeTag = tag; // Set the active tag
@@ -77,6 +77,7 @@ document.querySelectorAll('.post-tag').forEach(tag => {
     }
 });
 
+/*
 document.querySelectorAll('.tag').forEach(tag => {
     const tagText = tag.textContent.trim().toLowerCase().replace(/[^a-z]/g, '');
 
@@ -98,3 +99,4 @@ document.querySelectorAll('.tag').forEach(tag => {
         tag.style.color = '#000';
     }
 });
+*/

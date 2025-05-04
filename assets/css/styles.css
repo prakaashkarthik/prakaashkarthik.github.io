@@ -250,3 +250,25 @@ body {
 .hidden {
     display: none;
 }
+
+/* For the tag-cloud on the main page */
+#tag-posts-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 items per row */
+    gap: 1rem; /* Space between items */
+    margin-top: 1rem;
+}
+
+#tag-posts-list .post-preview {
+    background: white;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: 1px solid var(--medium-gray);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+#tag-posts-list .post-preview:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}

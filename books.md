@@ -29,7 +29,7 @@ tags: [books]
 <section class="Personal-posts">
     <h2>All posts</h2>
     <div class="post-cloud">
-        {% for post in site.posts %}
+        {% for post in site.posts limit:3 %}
             {% if post.tags contains "books" %}
             <a href="{{ post.url }}" class="post-preview-link">
                 <article>

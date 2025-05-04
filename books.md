@@ -9,18 +9,18 @@ tags: [books]
 <section class="recent-posts">
     <h2>Recent Posts on Books</h2>
     <div>
-        {% for post in site.posts %}
+        {% for post in site.posts limit:3 %}
             {% if post.tags contains "books" %}
             {% capture excerpt %}{{ post.content | strip_html | truncatewords: 30 }}{% endcapture %}
-            <a href="{{ post.url }}" class="post-preview">
             <article>
-                <h3 class="post-title">{{ post.title }}</h3>
-                <div class="post-meta">
+                <h3 class="post-title">
+                    <a href="{{ post.url }}">{{ post.title }} </a>
+                </h3>
+                <div>
                     <span class="post-date">{{ post.date | date: "%B %d, %Y" }}</span>
                 </div>
                 <p class="post-excerpt">{{ excerpt }}</p>
             </article>
-            </a>
             {% endif %}
         {% endfor %}
     </div>
@@ -29,7 +29,7 @@ tags: [books]
 <section class="Personal-posts">
     <h2>All posts</h2>
     <div class="post-cloud">
-        {% for post in site.posts limit:3 %}
+        {% for post in site.posts %}
             {% if post.tags contains "books" %}
             <a href="{{ post.url }}" class="post-preview-link">
                 <article>

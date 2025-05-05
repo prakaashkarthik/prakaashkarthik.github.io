@@ -9,17 +9,17 @@ tags:
 ---
 # Culture of Management
 
-At the time of writing this, I work for a very prominent technology company. A company that used to be synonymous with Silicon Valley and for pioneering leading edge technologies that made the age of the computer possible. The darling of Wall Street in the 80s and 90s. A benchmark company for business cases. 
+I currently work for a very prominent technology company. A company that used to be synonymous with Silicon Valley and for pioneering leading edge technologies that made the age of the computer possible. The darling of Wall Street in the 80s and 90s. A benchmark company for business cases. 
 
 Andy Grove's company. 
 
-A company that's now in turmoil - pilloried by the media and the stock market, people within the company questioning its own identity wondering what the right answer is and how to get back to its glory days. 
+A company that's now in turmoil - pilloried by the media and the stock market, accused of having a 'cultural rot'. A company whose employees are wondering how to fix this and get back to its glory days. 
 
 A company that is no longer Andy Grove's - just Intel. 
 
-I find myself a cog in this behemoth, wondering what role I can turn things around. There are still so many, many people at this company who worked back in the good old days - when Andy ran it and for the next ~10-15 years when we were still the semiconductor leaders - who say, "bring back the Groveian culture". Disciplined Execution. Constructive Confrontation. "That's the key", they say. 
+I find myself a cog in this behemoth, wondering what role I can play to turn things around. There are still so many, many people at this company who worked back in the good old days - when Andy ran it and for the next ~10-15 years when we were still the semiconductor leaders - who say, "bring back the Groveian culture". Disciplined Execution. Constructive Confrontation. "That's the key", they say. 
 
-Pat Gelsinger tried that. I suppose he tried to role model it too. Brought back OKRs (pioneered by Grove as Management By Objectives). Tried to get the message across. Clearly it didn't take hold. So I found myself pondering if Grove's culture is the right answer, or perhaps if there's a Grove++ meant for today that we should adopt. And so I turn towards his instructive 'High Output Management' - a book he addressed to people like me: cogs in corporate machines - to understand Grovein culture, contemplate its applications to my day-to-day, identify how I can translate it into maximum output for Intel today.
+And so I turn towards his instructive 'High Output Management' - a book he addressed to people like me: cogs in corporate machines - to understand Grovein culture, contemplate its applications to my day-to-day, identify how I can translate it into maximum output for Intel today.
 
 ## Reflections on reading High Output Management
 

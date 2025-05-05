@@ -23,5 +23,16 @@ And so I turn towards his instructive 'High Output Management' - a book he addre
 
 ## Reflections on reading High Output Management
 
-_To be continued..._
+### Introduction
+He makes so many killer statements/observations even in his introduction section where he reflects on the changes that have happened since his book was published. He brings up email and globalization as big changes. 
 
+    "If products and services become indistinguishable, all there is by the way of competitive advantage is _time_". 
+
+Andy Grove stated this in the context of email becoming ubiquitous in the workplace, which would outpace anyone still relying on word-of-mouth to spread official communication. If email wasn't going to be adopted hastily, then you'd lose your competitive edge. 
+I feel like there are many implications of this, especially in today's world of AI and LLMs. 
+
+Over the last decade, Intel's major setbacks have come partly because of "missing the bus" on various opportunities - mobile processors, discrete graphics, now XPUs - but also because we couldn't execute our bread-and-butter on time. Delay after delay on delivering Server products. Not only could we not deliver early - we couldn't deliver on any schedule we promised (although this is largely being remedied). 
+
+There is such a hunger for leading edge chips today. At a time when we need to be fighting with our competitors to be first through the customer's door with a ready rack-scale design, out-of-the-box fine-tuned SW for AI training and/or inference, we don't even have a product. How do we fix this? 
+
+Many companies around the world are adopting AI/LLMs into their daily workflows. If we don't figure out how to quickly adopt this efficiently for our workflows, there is no way for us to be predictable or deliver early. Competitors are already training their codebases for their employees to use. We have to make use of AI at work.  
